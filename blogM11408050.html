@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>誰是半導體界的「超級裁縫師」？日月光（3711）目標價全解析！</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            dark: '#050505',
+                            accent: '#FFD700', // Gold for the "stitching" theme
+                            primary: '#3B82F6', // Tech blue
+                            surface: 'rgba(255, 255, 255, 0.03)',
+                            glass: 'rgba(15, 15, 20, 0.7)',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Noto Sans TC', 'sans-serif'],
+                        display: ['Outfit', 'Noto Sans TC', 'sans-serif'],
+                    },
+                    animation: {
+                        'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'float': 'float 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        float: {
+                            '0%, 100%': { transform: 'translateY(0)' },
+                            '50%': { transform: 'translateY(-10px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #050505;
+            color: #e5e7eb;
+            overflow-x: hidden;
+        }
+        .glass-card {
+            background: rgba(20, 20, 25, 0.6);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+        }
+        .gold-glow {
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.15);
+        }
+        .text-gradient {
+            background: linear-gradient(135deg, #fff 0%, #9ca3af 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .accent-gradient {
+            background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+            filter: blur(40px);
+            z-index: -1;
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #050505;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #333;
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #444;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased">
+    <!-- Background Elements -->
+    <div class="blob top-0 left-0"></div>
+    <div class="blob bottom-0 right-0"></div>
+
+    <main class="max-w-4xl mx-auto px-6 py-12 lg:py-20">
+        
+        <!-- Header / Banner Section -->
+        <header class="relative mb-16">
+            <div class="mb-6 inline-flex items-center space-x-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-sm font-medium tracking-wide">
+                <span class="w-2 h-2 rounded-full bg-brand-accent animate-pulse"></span>
+                <span class="text-white/70">M11408050 • 深度分析報告</span>
+            </div>
+            
+            <h1 class="text-4xl lg:text-6xl font-extrabold font-display leading-tight mb-8 tracking-tight">
+                誰是半導體界的<br/>
+                <span class="accent-gradient">「超級裁縫師」？</span><br/>
+                <span class="text-gradient">日月光（3711）目標價全解析</span>
+            </h1>
+
+            <div class="relative group overflow-hidden rounded-3xl gold-glow border border-white/10">
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent z-10 pointer-events-none"></div>
+                <img src='https://opal.google/board/blobs/082068bd-e5f2-418d-bc5d-5c69030aa017' alt='超級裁縫師：日月光高精密封裝' class="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105" />
+                <div class="absolute bottom-6 left-6 z-20">
+                    <p class="text-sm font-medium text-white/90 bg-black/40 backdrop-blur-md px-4 py-2 rounded-lg border border-white/10">
+                        精密技術：AI 時代的晶片「縫製」藝術
+                    </p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Intro Section -->
+        <section class="mb-16">
+            <div class="flex items-start gap-6">
+                <div class="hidden md:block w-1 bg-gradient-to-b from-brand-accent to-transparent self-stretch rounded-full opacity-50"></div>
+                <p class="text-xl text-gray-300 leading-relaxed font-light italic">
+                    「想像一下，如果台積電（TSMC）是一位在廚房裡精雕細琢、研發出世上最頂級食材的大廚，那麼晶片在送上餐桌讓消費者享用之前，還需要一位美感與技術兼具的『擺盤大師』與『包裝專家』。」
+                </p>
+            </div>
+            <p class="mt-8 text-lg text-gray-400 leading-relaxed">
+                在半導體的世界裡，這位關鍵角色就是<span class="text-white font-semibold">日月光（3711）</span>。今天我們不聊生澀的電路圖，而是坐在咖啡廳裡，用一杯拿鐵的時間，來解構這位半導體界的「超級裁縫師」，看看它為何在 AI 浪潮中依然穩坐龍頭，以及各大法人眼中的它，究竟值多少錢。
+            </p>
+        </section>
+
+        <!-- Bento Grid Content -->
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-6 mb-16">
+            
+            <!-- Box 1: Core Business -->
+            <div class="md:col-span-8 glass-card p-8 flex flex-col justify-between hover:border-brand-accent/30 transition-colors">
+                <div>
+                    <div class="w-12 h-12 bg-brand-accent/10 rounded-xl flex items-center justify-center mb-6 border border-brand-accent/20">
+                        <svg class="w-6 h-6 text-brand-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.628.285a2 2 0 01-1.963 0l-.63-.285a6 6 0 00-3.858-.517l-2.388.477a2 2 0 00-1.022.547V18a2 2 0 002 2h11a2 2 0 002-2v-2.572zM4 14.125V11a2 2 0 012-2h12a2 2 0 012 2v3.125M12 9v4m-3-2H9m3 0h3"></path></svg>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-4 text-white">一、 認識這位「隱形冠軍」</h2>
+                    <p class="text-gray-400 leading-relaxed">
+                        日月光的核心業務是 <span class="text-white font-medium">OSAT（委外封測）</span>。簡單來說，晶圓廠產出的「裸晶」非常脆弱，日月光的工作就是運用極致技術，為晶片「裁縫」外殼並測試。它是全球最大的封測商，市佔率世界第一。
+                    </p>
+                </div>
+                <div class="mt-6 pt-6 border-t border-white/5">
+                    <span class="text-xs uppercase tracking-widest text-brand-accent font-bold">Market Dominance: #1 Worldwide</span>
+                </div>
+            </div>
+
+            <!-- Box 2: History -->
+            <div class="md:col-span-4 glass-card p-8 bg-brand-primary/5 hover:border-brand-primary/30 transition-colors">
+                <h2 class="text-2xl font-bold mb-4 text-white">二、 發展簡史</h2>
+                <p class="text-sm text-gray-400 leading-relaxed mb-6">
+                    1984年創立於高雄，2018年迎來歷史性轉折——與「矽品」大和解成立「日月光投控」，納入環旭電子，奠定封測堡壘地位。
+                </p>
+                <div class="space-y-4">
+                    <div class="flex items-center gap-3">
+                        <div class="w-2 h-2 rounded-full bg-brand-primary"></div>
+                        <span class="text-xs text-gray-300">1984: 高雄創立</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <div class="w-2 h-2 rounded-full bg-brand-primary"></div>
+                        <span class="text-xs text-gray-300">2018: 成立投資控股</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Box 3: Target Price Table (Wide) -->
+            <div class="md:col-span-12 glass-card overflow-hidden">
+                <div class="p-8 border-b border-white/5">
+                    <h2 class="text-2xl font-bold text-white">三、 預言家們怎麼看？（目標價大對決）</h2>
+                    <p class="text-gray-400 text-sm mt-2">2024 上半年法說會後，市場對 AI 與先進封裝持樂觀態度。</p>
+                </div>
+                <div class="overflow-x-auto">
+                    <table class="w-full text-left border-collapse">
+                        <thead>
+                            <tr class="bg-white/5">
+                                <th class="p-6 text-sm font-semibold text-gray-400 uppercase tracking-wider">券商機構</th>
+                                <th class="p-6 text-sm font-semibold text-gray-400 uppercase tracking-wider">評等</th>
+                                <th class="p-6 text-sm font-semibold text-gray-400 uppercase tracking-wider">目標價 (TWD)</th>
+                                <th class="p-6 text-sm font-semibold text-gray-400 uppercase tracking-wider">核心觀點</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-white/5">
+                            <tr class="hover:bg-white/5 transition-colors">
+                                <td class="p-6 font-bold text-white">高盛 (Goldman Sachs)</td>
+                                <td class="p-6"><span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-bold border border-green-500/20">買進</span></td>
+                                <td class="p-6 text-brand-accent font-bold text-xl">$191</td>
+                                <td class="p-6 text-gray-400 text-sm">先進封裝產能擴張與 AI 營收貢獻。</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition-colors">
+                                <td class="p-6 font-bold text-white">富邦投顧</td>
+                                <td class="p-6"><span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-bold border border-green-500/20">買進</span></td>
+                                <td class="p-6 text-brand-accent font-bold text-xl">$188</td>
+                                <td class="p-6 text-gray-400 text-sm">稼動率回升，AI 帶動獲利成長。</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition-colors">
+                                <td class="p-6 font-bold text-white">摩根士丹利 (MS)</td>
+                                <td class="p-6"><span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-bold border border-blue-500/20">優於大盤</span></td>
+                                <td class="p-6 text-brand-accent font-bold text-xl">$185</td>
+                                <td class="p-6 text-gray-400 text-sm">AI 封測訂單強勁，毛利率回升。</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition-colors">
+                                <td class="p-6 font-bold text-white">凱基證券</td>
+                                <td class="p-6"><span class="px-3 py-1 rounded-full bg-green-500/10 text-green-400 text-xs font-bold border border-green-500/20">買進</span></td>
+                                <td class="p-6 text-brand-accent font-bold text-xl">$185</td>
+                                <td class="p-6 text-gray-400 text-sm">評價合理，2025 年獲利爆發。</td>
+                            </tr>
+                            <tr class="hover:bg-white/5 transition-colors">
+                                <td class="p-6 font-bold text-white">摩根大通 (JPM)</td>
+                                <td class="p-6"><span class="px-3 py-1 rounded-full bg-blue-500/10 text-blue-400 text-xs font-bold border border-blue-500/20">優於大盤</span></td>
+                                <td class="p-6 text-brand-accent font-bold text-xl">$180</td>
+                                <td class="p-6 text-gray-400 text-sm">傳統轉向先進封裝，結構改善。</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="p-6 bg-brand-accent/5 flex items-center justify-between">
+                    <span class="text-sm font-medium text-gray-300">市場共識區間：</span>
+                    <span class="text-lg font-bold text-brand-accent">$160 - $195</span>
+                </div>
+            </div>
+
+            <!-- Box 4: Risks (Left) -->
+            <div class="md:col-span-6 glass-card p-8 border-red-500/10 hover:border-red-500/30 transition-colors group">
+                <h2 class="text-2xl font-bold mb-6 text-white flex items-center gap-3">
+                    <span class="w-8 h-8 rounded-lg bg-red-500/10 text-red-500 flex items-center justify-center text-lg">!</span>
+                    四、 潛在的挑戰
+                </h2>
+                <ul class="space-y-6">
+                    <li class="flex gap-4">
+                        <div class="mt-1 text-red-500/50">•</div>
+                        <div>
+                            <strong class="text-gray-200 block mb-1">台積電的「斜槓」壓力</strong>
+                            <p class="text-sm text-gray-400">CoWoS 先進封裝擴張是否擠壓日月光生存空間？</p>
+                        </div>
+                    </li>
+                    <li class="flex gap-4">
+                        <div class="mt-1 text-red-500/50">•</div>
+                        <div>
+                            <strong class="text-gray-200 block mb-1">二哥與三哥的追趕</strong>
+                            <p class="text-sm text-gray-400">艾克爾（Amkor）與江蘇長電在特定領域的競爭。</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Box 5: Future (Right) -->
+            <div class="md:col-span-6 glass-card p-8 border-brand-primary/10 hover:border-brand-primary/30 transition-colors">
+                <h2 class="text-2xl font-bold mb-6 text-white">五、 未來的財富密碼</h2>
+                <div class="space-y-4">
+                    <div class="p-4 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 transition-all cursor-default">
+                        <h4 class="text-brand-primary font-bold text-sm mb-1">VIPack 技術平台</h4>
+                        <p class="text-xs text-gray-400 leading-relaxed">2.5D/3D 封裝，AI 算力唯一解藥。</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 transition-all cursor-default">
+                        <h4 class="text-brand-primary font-bold text-sm mb-1">China+1 策略</h4>
+                        <p class="text-xs text-gray-400 leading-relaxed">馬來西亞、墨西哥、日本全球佈局避險。</p>
+                    </div>
+                    <div class="p-4 rounded-xl bg-white/5 border border-white/5 hover:bg-white/10 transition-all cursor-default">
+                        <h4 class="text-brand-primary font-bold text-sm mb-1">矽光子與 CPO</h4>
+                        <p class="text-xs text-gray-400 leading-relaxed">與博通、台積電合作，引領技術革命。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <section class="glass-card p-10 relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-8 opacity-5">
+                <svg class="w-40 h-40" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+            </div>
+            
+            <h2 class="text-3xl font-bold mb-6 text-white">六、 結語：投資人的觀察筆記</h2>
+            <div class="prose prose-invert max-w-none text-gray-300 text-lg leading-relaxed space-y-6">
+                <p>
+                    日月光不再是當年那間只會「封膠、測試」的代工廠，它正演變為半導體生態系中不可或缺的技術整合者。AI 的爆發讓「封裝」的價值被重新定義。
+                </p>
+                <p>
+                    過去我們看重主晶片的運算速度，現在我們更看重這些晶片如何被「裁縫」在一起。雖然台積電在先進封裝上表現強勢，但其產能終究有限，日月光作為最專業的委外夥伴，承接外溢訂單的紅利才剛開始。
+                </p>
+            </div>
+
+            <div class="mt-12 p-6 rounded-2xl bg-brand-accent/10 border border-brand-accent/20">
+                <p class="text-sm text-brand-accent/90 flex items-center gap-2">
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                    溫馨提醒：投資有風險，目標價僅供參考，不要看著大綱就衝進場喔！
+                </p>
+            </div>
+        </section>
+
+        <!-- Dynamic Micro-interactions Container -->
+        <div class="mt-12 text-center text-gray-500 text-sm font-light tracking-widest uppercase">
+            Designed for Modern Semi-Conductor Insights
+        </div>
+    </main>
+
+    <script>
+        // Subtle micro-animations for cards on scroll
+        document.addEventListener('DOMContentLoaded', () => {
+            const cards = document.querySelectorAll('.glass-card');
+            
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.opacity = '1';
+                        entry.target.style.transform = 'translateY(0)';
+                    }
+                });
+            }, observerOptions);
+
+            cards.forEach(card => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(20px)';
+                card.style.transition = 'all 0.6s cubic-bezier(0.22, 1, 0.36, 1)';
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
